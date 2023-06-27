@@ -1,0 +1,48 @@
+{
+  "newPet": {
+    "name": "Sweety",
+    "photoUrls": [],
+    "tags": [
+      { "id": 1, "name": "tag1" },
+      { "id": 2, "name": "tag2" }
+    ],
+    "status": "available"
+  },
+  "pets": [
+    {
+      "name": "Pet1",
+      "photoUrls": [],
+      "tags": [{ "id": 1, "name": "tag1" }],
+      "status": "available"
+    },
+    {
+      "name": "Pet2",
+      "photoUrls": [],
+      "tags": [{ "id": 2, "name": "tag2" }],
+      "status": "sold"
+    },
+    {
+      "name": "Pet3",
+      "photoUrls": [],
+      "tags": [{ "id": 3, "name": "tag3" }],
+      "status": "pending"
+    },
+    {
+      "name": "Pet4",
+      "photoUrls": [],
+      "tags": [{ "id": 4, "name": "tag4" }],
+      "status": "available"
+    }
+  ],
+  "updatedPet": {
+    "name": "Sweety Updated",
+    "photoUrls": [],
+    "tags": [
+      { "id": 1, "name": "tag1" },
+      { "id": 2, "name": "tag2" }
+    ],
+    "status": "sold"
+  },
+  "findPetsByStatus": "available",
+  "findPetsByTags": ["tag1", "tag2"]
+}
